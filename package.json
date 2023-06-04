@@ -1,0 +1,36 @@
+{
+  "name": "dev_spot--backend",
+  "version": "2.1.2",
+  "description": "Social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": {
+    "name": "Dzenis H.",
+    "email": "dzenis.developer@icloud.com",
+    "url": "https://dzenis.tech"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "config": "3.1.0",
+    "express": "4.16.4",
+    "express-validator": "5.3.1",
+    "gravatar": "1.8.0",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "^7.2.2",
+    "request": "2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.11"
+  },
+  "engines": {
+    "node": "10.x.x",
+    "npm": "6.x.x"
+  }
+}

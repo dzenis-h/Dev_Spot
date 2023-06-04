@@ -1,0 +1,5 @@
+node_modules/
+default.json
+production.json
+config/keys_dev.js
+client/.env
